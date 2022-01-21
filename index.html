@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title>Survey Form</title>
+</head>
+<body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+  <h1 id="title">Frog Enjoyer Survey Form</h1>
+  <p id="description">Thank you for taking part in this important research. It will help us understand what people think about the most precious amphibian on this planet</h>
+  <form id="survey-form" action="https://imgscf.slidemembers.com/docs/1/1/146/free_business_google_slides_templates_-_frogs_in_spring_145536.jpg">
+    <label for="name" id="name-label">Name</label>
+    <input id="name" class="input-block" type="text" required placeholder="Ben Dover"/>
+    <label for="email" id="email-label">Email</label>
+    <input id="email" type="email" required placeholder="example@mail.com" class="input-block" />
+    <label for="dropdown">Age</label>
+    <select name="dropdown" id="dropdown">
+      <option value="" disabled selected>Pick your age range</option>
+      <option value="child"><13</option>
+      <option value="teen">13-19</option>
+      <option value="young-adult">20-29</option>
+      <option value="adult">30-49</option>
+      <option value="old">>50</option>
+    </select>
+    <label for="number" id="number-label">How many pets do you have?</label>
+    <input id="number" type="number" required="true" placeholder="2" min="0" max="30" class="input-block"/>
+    <label>What kind of pets do you have or used to have?</label>
+    <div class="flex input-block">
+    <label>
+    <input type="checkbox" name="pet" value="cat"/>
+      Cat
+    </label>
+    <label>
+    <input type="checkbox" name="pet" value="dog"/>
+      Dog
+    </label>
+    <label>
+    <input type="checkbox" name="pet" value="bird"/>
+      Bird (parrot, duck etc)
+      </label>
+    <label>
+    <input type="checkbox" name="pet"  value="rodent"/>
+      Rodent (hamster, guinea pig, rat etc)
+    </label>
+    <label>
+    <input type="checkbox" name="pet" value="reptile"/>
+      Reptile (turtle, snake, lizard etc)
+      </label>
+    <label>
+    <input type="checkbox" name="pet" value="amphibian"/>
+      Amphibian (frog, toad, axolotl etc)
+    </label>
+    <label>
+    <input type="checkbox" name="pet" value="other"/>
+      Other (fish, insects, rocks etc)
+    </label>
+    </div>
+ <label for="love">How much do you like frogs?</label>
+    <input id="love" type="range" required/>
+    <label for="hate">If you don't like frogs, please explain why</label>
+    <input id="hate" type="text"  placeholder="Skip if you like frogs" class="input-block"/>
+    <label>Would you like to have a frog as a pet?</label>
+   <div class="flex input-block">
+    <label>
+    <input type="radio" name="pet-frog" required value="strong-yes">
+      Yes, I plan on having one
+    </label>
+    <label>
+    <input  type="radio" name="pet-frog" required value="yes">
+      Yes, but only in my dreams
+    </label>
+    <label>
+    <input type="radio" name="pet-frog" required checked="true" value="maybe" class="radio">
+    I'm not sure, haven't thought about it
+    </label>
+    <label>
+    <input type="radio" name="pet-frog" required value="no">
+    Not really, might change my mind later
+    </label>
+    <label>
+    <input type="radio" name="pet-frog" required value="strong-no">
+    Absolutely not, never ever
+    </label>
+    </div>
+    <label for="comment">Give us some feedback if you'd like, or say something nice about frogs</label>
+    <textarea id="comment" placeholder="Leave your comment here"></textarea>
+    <button id="submit" type="submit">Submit your survey</button>
+  </form>
+</body>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
+</body>
+</html>

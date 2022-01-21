@@ -1,0 +1,75 @@
+html { 
+  background: url(https://lh6.googleusercontent.com/proxy/OnouOYXlGVWcD0v1fxQbbw6wUK9MGAK5fofiUu94fmK1LMWpe29hFDjcdl5ouHQ88ZWfTN_bP7GshG-YfPDS1fTY5KQxdHjXyuw89w=s0-d) no-repeat center center fixed; 
+  backdrop-filter: blur(5px);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  text-align: center;
+  color: hsl(0,0%,95%,1);
+  font-family: 'Dongle', sans-serif;
+  
+}
+h1 {
+  font-size: 56px;
+}
+p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+p, label {
+  font-size: 36px;
+}
+form {
+  background: hsl(68,42%,11%,0.9);
+  border-radius: 1.5em;
+  border: solid hsl(68,42%,6%,1);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: start;
+  margin: 0 auto;
+}
+.input-block,
+.input-block:after,
+textarea,
+select {
+  width: 90%;
+  background: hsl(68,42%,7%,1);
+  border: 2px solid hsl(68,42%,3%,1);
+  border-radius: 5px;
+  padding: 10px;
+  color: hsl(0,0%,95%,1);
+  margin-bottom: 15px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+textarea {
+  resize: none;
+}
+::placeholder {
+  color: hsl(68,20%,60%,1);
+}
+#love {
+  width: 90%;
+}
+button {
+  background-color: hsl(68,42%,5%,1);
+  border: 3px solid hsl(68,42%,3%,1); 
+  color: hsl(68,20%,60%,1);
+  padding: 1em;
+  border-radius: 10px;
+  margin: 0px auto;
+  font-size: 15px;
+}
+button:hover {
+  box-shadow: 0px 0px 5px hsl(68,20%,60%,1);
+  cursor: click;
+}
